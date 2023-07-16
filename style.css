@@ -178,9 +178,20 @@ nav li a{
 
 }
 
-
-
-
+/* footer style */
+.footer{
+  height: 80px;
+  width: auto;
+  background-color: rgba(255, 144, 14, 0.10) ;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+}
+.footer-des{
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+}
 
 
 
@@ -219,6 +230,12 @@ nav li a{
  .facts-card-container{
    gap:20px;
  }
+ .footer{
+  width: auto;
+  height: 100px;
+  margin: 30px;
+  margin-bottom: 60px;
+ }
  }
 
  /* medium devices */
@@ -232,7 +249,7 @@ nav li a{
       flex-direction: column;
     }
     .feature-img img{
-    width: 100%;
+    width:100%;
     margin-left: 0;
   }
     .teams-title{
